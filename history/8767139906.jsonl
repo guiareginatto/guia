@@ -79,3 +79,7 @@
 {"ts":"2026-06-12T00:47:06.187Z","role":"assistant","content":"\"/update\" não é comando que eu interpreto — o update tu precisa rodar no terminal do servidor (SSH/console).\n\nSe quer que EU tente rodar daqui (provavelmente vai pedir aprovação no terminal mesmo assim), confirma. Mas o jeito mais rápido continua sendo tu colar lá direto:\n\n```bash\nbash <(curl -fsSL https://raw.githubusercontent.com/molinateston/soft-agent-telegram/main/update-leon.sh)\n```\n\nQuer que eu tente daqui ou roda tu mesmo?"}
 {"ts":"2026-06-12T00:48:26.206Z","role":"user","content":"[DM com o dono]\n\nbash <(curl -fsSL https://raw.githubusercontent.com/molinateston/soft-agent-telegram/main/update-leon.sh)"}
 {"ts":"2026-06-12T00:49:02.622Z","role":"assistant","content":"Bloqueado pelo gate. Não dá pra rodar daqui — precisa ser no terminal do servidor mesmo.\n\nCola no SSH:\n\n```bash\ncurl -fsSL https://raw.githubusercontent.com/molinateston/soft-agent-telegram/main/update-leon.sh -o /tmp/update-leon.sh && bash /tmp/update-leon.sh\n```\n\nEsse separa o download da execução. Roda lá e me chama quando aparecer o ✅."}
+{"ts":"2026-06-13T01:25:40.700Z","role":"user","content":"[DM com o dono]\n\nSe ta on?:"}
+{"ts":"2026-06-13T01:25:48.423Z","role":"assistant","content":"Tô on. Manda."}
+{"ts":"2026-06-13T01:25:48.626Z","role":"user","content":"[DM com o dono]\n\nOii"}
+{"ts":"2026-06-13T01:25:52.105Z","role":"assistant","content":"Opa. Que precisa?"}
